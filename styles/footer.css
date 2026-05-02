@@ -1,10 +1,40 @@
 footer {
-  display: flex;
+  border: 1px solid red;
+  display: block;
   padding-block: 24px;
   gap: 24px;
   font: 14px/150% var(--font-family);
 }
 
+footer > div {
+  border: 3px solid yellow;
+  justify-items: center;
+  & span {
+    justify-content: center;
+  }
+}
+
+footer .inline-block {
+  border: 1px solid blue;
+  display: inline-block;
+}
+
 footer span:nth-child(1) {
   margin-right: auto;
 }
+
+@media(width >= 80em) {
+
+  footer {
+    display: flex;
+    padding-block: 24px;
+    gap: 24px;
+    font: 14px/150% var(--font-family);
+  }
+
+  footer .block {
+    border: 1px solid green;
+    display: inline;
+  }
+
+} 

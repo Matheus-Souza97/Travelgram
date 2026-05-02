@@ -26,8 +26,8 @@
               <img src="assets/icons/MagnifyingGlass.svg" alt="icone de lupa" />
             </a>
           </li>
-          <li><a href="#">Explrer</a></li>
-          <li><a href="#">Minhas Viagens</a></li>
+          <li class="desktop-only"><a href="#">Explrer</a></li>
+          <li class="desktop-only"><a href="#">Minhas Viagens</a></li>
           <li>
             <a href="#"></a
             ><img src="assets/Profile pic.png" alt="Imagem Perfil" />
@@ -37,7 +37,7 @@
       <header>
         <div class="container">
           <div id="profile">
-            <img src="assets/Profile pic.png" alt="Imagem de Pefil" />
+            <img id="image" src="assets/Profile pic.png" alt="Imagem de Pefil" />
             <div>
               <h1>Isabela Torres</h1>
               <p>
@@ -83,15 +83,18 @@
     </main>
 
     <footer class="container">
-      <span>
-        Travelgram &copy; 2024
-      </span>
 
-      <span>
+      <div>
+        <span class="block">
+          Travelgram &copy; 2024
+        </span>
+      </div>
+
+      <span class="inline-block">
         Termos de uso
       </span>
 
-      <span>
+      <span class="inline-block">
         Política de privacidade
       </span>
     </footer>
