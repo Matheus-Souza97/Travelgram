@@ -1,5 +1,5 @@
 header {
-  padding-block: 32px;
+  padding-block: 2rem;
   font: var(--text-md);
   
 }
@@ -11,62 +11,61 @@ header .container {
 }
 
 #profile {
-  border: 1px solid blue;
   display: block;
-  gap: 32px;
+  gap: 2rem;
   padding-bottom: 2rem;
 }
 
 #profile > div {
-  max-width: 384px;
+  max-width: 192rem;
 }
 
 #profile #image {
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
   object-fit: cover;
   border-radius: 50%;
 }
 
 #profile h1 {
-  border: 1px solid red;
   margin-top: 1rem;
   font: var(--text-md) ;
   font-size: 1.5rem;
   font-weight: 800;
   color: var( --text-color-primary);
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 #profile p {
-  border: 1px solid red;
+  width: 18.5rem;
+  height: 9rem;
 }
 
 #info {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 280px;
+  gap: 1rem;
+  width: 17.5rem;
 }
 
 #info li {
   display: flex;
   align-items: center;
-  gap: 8px
+  gap: .5rem;
 }
 
 @media(width >= 80em) {
 
   #profile {
     display: flex;
-    gap: 32px;
+    gap: 2rem;
     padding-bottom: 1px;
   }
 
   #profile #image {
-    width: 176px;
-    height: 176px;
+    width: 11rem;
+    height: 11rem;
     object-fit: cover;
    border-radius: 50%;
   }
@@ -78,14 +77,14 @@ header .container {
   }
 
   #profile h1 {
-    border: 1px solid red;
     font: var(--text-lg);
     color: var( --text-color-primary);
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
   }
 
   #profile p {
-    border: 1px solid red;
+    width: 24.75rem;
+    height: 7.5rem;
   }
 
 }
