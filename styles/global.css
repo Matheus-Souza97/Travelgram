@@ -38,8 +38,8 @@ a:hover {
 }
 
 .container {
-  padding-inline: 2rem;
-  max-width: 80rem;
+  padding-inline: 1rem;
+  max-width: 22.5rem;
   margin-inline: auto;
 }
 
@@ -52,6 +52,13 @@ a:hover {
 }
 
 @media(width >= 80em) {
+
+  .container {
+    padding-inline: 2rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+
   .desktop-only {
     display: initial;
   }
